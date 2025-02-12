@@ -38,13 +38,13 @@ const Contact = () => {
   return (
     <div className={`${classes.app__footer}`} id='contact'>
      <h2>Contact Us</h2>
-     <hr style={{ borderTop: "3px solid #008bc9",
+     <hr style={{ borderTop: "3px solid #4288E8",
                             width: "100px",
                             margin: "1rem auto auto auto"}}/>
       <div className={`${classes.app__footer_cards}`}>
         <div className={`${classes.app__footer_card}`}>
           <img src='./email.png' alt="email" />
-          <a href="texus:info@texus.co.uk" className={`${classes.p_text}`} >info@texus.co.uk</a>
+          <a href="texus:info@texus.co.uk" className={`${classes.p_text}`} >info@company.com</a>
         </div>
         <div className={`${classes.app__footer_card}`}>
           <img src='/mobile.png' alt="phone" />

@@ -26,15 +26,16 @@
     }
   }
 .service__featured p{
-    color: #00b0ee;
+    color: #4288E8;
 }
 .service__featured__sub{
-    background: #f3effb;
+    background: #4288E8;
     text-align: center;
     border-radius: 10px;
     width: 40%;
     height: 60px;
     margin: 5px;
+    color: 'white';
 }
 @media screen and (max-width: 1000px) {
     .service__featured__sub{
@@ -45,7 +46,7 @@
     margin-top: 15px;
 }
 .service__featured__sub:hover{
-    background-color: #00b0ee;
+    background-color: #85a3cd;
     color: white;
     transition: 1s;
 }

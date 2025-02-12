@@ -24,7 +24,7 @@
     margin: 4rem 0 2rem;
     }
     .item_active {
-        background-color: #00b0ee;
+        background-color: #4288E8;
         color: #fff;
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
@@ -55,7 +55,7 @@
         }
             }
         .app__work_filter_item:hover {
-            background-color: #00b0ee;
+            background-color: #4288E8;
             }
     
     .app__work_portfolio {
