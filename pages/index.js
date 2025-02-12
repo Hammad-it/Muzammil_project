@@ -9,6 +9,7 @@ import Testimonial from '../components/UI/landingPage/Testimonials';
 import OurTeam from '../components/UI/landingPage/OurTeam';
 import Product from '../components/containrs/Product';
 import Contact from '../components/contactus/Contact';
+import NewSectionEight from '../components/UI/landingPage/NewSectionEight';
 
 export default function Home() {
   return (<Fragment>
@@ -18,7 +19,8 @@ export default function Home() {
     <Services/>
     {/* <Products/> */}
     <Product/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
+    <NewSectionEight />
     <AboutUs/>
     <OurTeam/>
     <Contact/>

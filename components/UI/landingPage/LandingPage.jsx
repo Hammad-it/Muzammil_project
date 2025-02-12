@@ -36,6 +36,7 @@ const LandingPage = () => {
     <div className={`${classes.hero}`} id='home'>
 
       <div className={`${classes.hero__main}`}>
+        
         <div className={`${classes.hero__text}`}>
           <h1>Empowering Innovation, Transforming Ideas into Scalable
 

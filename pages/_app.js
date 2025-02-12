@@ -9,7 +9,8 @@ import { useEffect } from 'react';
 import LoaderScreen from '../components/loader/LoaderScreen';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
@@ -33,15 +34,17 @@ function MyApp({ Component, pageProps }) {
   }, [])
   return (
     <>
-      <LoaderScreen loader={loading} />
-      {!loading && (<motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ y: [100, 90, 80, 60, 50, 40, 30, 20, 10, 0, -10], opacity: 1 }}
-        transition={{ duration: 0.5 }}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </motion.div>)}
+      <ThemeProvider theme={theme}>
+        <LoaderScreen loader={loading} />
+        {!loading && (<motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ y: [100, 90, 80, 60, 50, 40, 30, 20, 10, 0, -10], opacity: 1 }}
+          transition={{ duration: 0.5 }}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </motion.div>)}
+      </ThemeProvider>
     </>
   );
 }
