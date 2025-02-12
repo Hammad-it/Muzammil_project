@@ -1,11 +1,11 @@
 import { Box, Rating, Stack, Typography, useTheme } from '@mui/material';
 
-import man3 from '../../../components/asset/man3.png'
-import man4 from '../../../components/asset/man4.png'
+// import man3 from '../../../components/asset/man3.png'
+// import man4 from '../../../components/asset/man4.png'
 
 // import man5 from '../../../components/asset/man5.png'
-import lady1 from '../../../components/asset/lady1.png'
-import lady4 from '../../../components/asset/lady4.png'
+// import lady1 from '../../../components/asset/lady1.png'
+// import lady4 from '../../../components/asset/lady4.png'
 
 
 import Slider from 'react-slick';
@@ -63,7 +63,7 @@ function NewSectionEight() {
       rating: 5,
       review:
         "ChildrenKARE is wonderful. I was looking for daycare center but living in a big city, it seemed like a daunting task to even know where to start or to find options to consider. That's where  helped me through their network of providers.",
-      image: "../../../components/asset/man3.png"
+      image: "/man3.png"
     },
     // {
     //   name: 'Michael D.',
@@ -84,7 +84,7 @@ function NewSectionEight() {
       rating: 5,
       review:
         'A reliable resource for parents seeking childcare options. We found a nurturing and educational environment for our daughter through ChildrenKARE. The platform provides authentic and up to date data of daycare centers',
-      image: man3
+      image: '/man4.png'
     },
     
     {
@@ -92,7 +92,7 @@ function NewSectionEight() {
       rating: 5,
       review:
         'Amazing selection of daycares and preschools on ChildrenKARE! We were able to compare options, read reviews, and make an informed decision. The platform truly simplifies the childcare search process.',
-      image: man4
+      image: '/man4.png'
     },
 
     {
@@ -100,7 +100,7 @@ function NewSectionEight() {
       rating: 4,
       review:
         'The ChildrenKARE website is user-friendly and comprehensive. It made finding a daycare for our little one surprisingly easy. We appreciate the transparency and the wealth of information available to help us make the right choice.',
-      image: lady4
+      image: '/lady4.png'
     },
   
   ];
@@ -169,7 +169,6 @@ function NewSectionEight() {
               >
                 <Stack sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: { md: 'start', xs: 'center' } }}>
                   <img src={card.image} alt={card.name} height="55px" width="55px" />
-
                   <Stack sx={{ pl: 2 }}>
                     <Typography variant="bodytext" sx={{ fontWeight: 700 }}>
                       {card.name}

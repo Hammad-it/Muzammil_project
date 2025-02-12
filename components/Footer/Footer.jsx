@@ -11,12 +11,12 @@ const Footer = () => {
       <div className={`${classes.footer_container}`}>
         <div className={`${classes.footer_row}`}>
           <div className={`${classes.footer_column}`}>
-            <h3 style={{color: '#00b0ee'}}>TEXUS.</h3>
-            <span style={{margin:'20px 0px'}}>UM 46 Model Town Link Road, Lahore</span>
+            <h3 style={{color: '#00b0ee'}}>TECHORA.</h3>
+            <span style={{margin:'20px 0px'}}>Riyadh ,Saudia street demy Data</span>
             <br/>
-            <span style={{margin:'20px 0px'}}><strong>Phone:</strong> <span>{" "}+92-3114537947</span></span>
+            <span style={{margin:'20px 0px'}}><strong>Phone:</strong> <span>{" "}+966-53-2626494</span></span>
             <br/>
-            <span style={{margin:'20px 0px'}}><strong>Email:</strong> <span>{" "}info@texus.co.uk</span></span>
+            <span style={{margin:'20px 0px'}}><strong>Email:</strong> <span>{" "}info@company.co.uk</span></span>
             <div className={`${classes.social_icons}`}>
               <div>
                 <BsFacebook size={30}/>
@@ -41,12 +41,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href='#'>
+                <Link href='/#about'>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href='#'>
+                <Link href='/#services'>
                   Services
                 </Link>
               </li>
@@ -98,8 +98,8 @@ const Footer = () => {
         </div>
       </div>
       <div className={`${classes.footer_cr}`}>
-        <p>© Copyright <strong style={{color: '#00b0ee'}}>Texus.</strong> All Rights Reserved</p>
-        <p>Designed by <strong style={{color: '#00b0ee'}}>Texus.</strong></p>
+        <p>© Copyright <strong style={{color: '#00b0ee'}}>Techora.</strong> All Rights Reserved</p>
+        <p>Designed by <strong style={{color: '#00b0ee'}}>Techora.</strong></p>
       </div>
     </footer>
   )

@@ -10,7 +10,7 @@ import LoaderScreen from '../components/loader/LoaderScreen';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme";
+import theme from "../components/UI/landingPage/theme";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);

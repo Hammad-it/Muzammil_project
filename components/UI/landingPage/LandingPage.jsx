@@ -50,7 +50,7 @@ const LandingPage = () => {
             }}
           /></h1>
 
-          <p>Let me know if you'd like a different style! 😊</p>
+          <p>Let me know if you&apos;d like a different style! 😊</p>
           <button>Contact Us</button>
         </div>
         <div className={`${classes.hero__image__main}`} >
